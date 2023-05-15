@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/demo"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Land">
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+
+        android:text="Co-ordinates"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#2694EC"
+        android:elevation="30dp"
+        />
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="GPS Location"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:backgroundTint="#2694EC"
+        android:backgroundTintMode="src_over"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:elevation="30dp"
+        />
+
+</LinearLayout>

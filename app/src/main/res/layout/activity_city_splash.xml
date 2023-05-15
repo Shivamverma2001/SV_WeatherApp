@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".CitySplash">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather App"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="City Longitude"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/lon"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Enter your City Longitude"
+        android:textColor="@color/black"
+        android:layout_height="40dp"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="City Latitide"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Enter your City Latitide"
+        android:textColor="@color/black"
+        android:layout_height="40dp"></EditText>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:elevation="30dp"
+        />
+
+</LinearLayout>
